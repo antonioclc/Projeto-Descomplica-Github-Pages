@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharia de Software</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .hero {
+          background-color: #007bff; /* Cor de fundo azul */
+          padding: 50px 0;
+          text-align: center;
+          color: white;
+          background-image: linear-gradient(to right, #007bff, #6610f2); /* Gradiente de azul para roxo */
+          background-size: cover;
+          background-position: center;
+      }
+        .hero h1 { font-size: 3.5rem; font-weight: bold; }
+        .section-title { margin-top: 30px; margin-bottom: 20px; font-weight: bold; font-size: 2rem; }
+        .footer { background-color: #343a40; color: white; padding: 20px 0; }
+        .footer p { margin: 0; }
+        .content-section img { max-width: 100%; height: auto; margin-bottom: 20px; border-radius: 10px; }
+        .profile-section { background-color: #f1f1f1; padding: 40px 0; text-align: center; }
+        .profile-section img { border-radius: 50%; width: 150px; }
+        .profile-section h4 { margin-top: 15px; font-size: 1.5rem; }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Engenharia de Software</h1>
+        <p class="lead">Explorando uma das áreas mais promissoras da tecnologia</p>
+    </header>
+    <main class="container my-5">
+        <section class="content-section">
+            <h2 class="section-title text-primary">O que é Engenharia de Software?</h2>
+            <img src="https://www.undb.edu.br/hubfs/eng-software-curso-undb.jpg" alt="Engenharia de Software">
+            <p>A Engenharia de Software é uma disciplina da computação que trata do desenvolvimento, operação e manutenção de software de maneira sistemática e disciplinada. Ela abrange não apenas a programação, mas também planejamento, design, testes e gerenciamento de projetos complexos. A Engenharia de Software é essencial para a criação de sistemas robustos, escaláveis e de fácil manutenção, que atendam às necessidades do mercado e dos usuários finais.</p>
+        </section>
+        <section class="content-section">
+            <h2 class="section-title text-success">Áreas de Atuação</h2>
+            <img src="https://blog.brq.com/wp-content/uploads/sites/3/2022/01/engenharia_software.jpg" alt="Áreas de Atuação">
+            <p>Os engenheiros de software podem atuar em uma vasta gama de setores. Entre as principais áreas estão:</p>
+            <ul>
+                <li>Desenvolvimento de sistemas corporativos</li>
+                <li>Desenvolvimento de software embarcado para dispositivos IoT</li>
+                <li>Arquitetura de sistemas e software</li>
+                <li>Testes e controle de qualidade</li>
+                <li>Segurança da informação e sistemas críticos</li>
+                <li>Inteligência artificial e ciência de dados</li>
+                <li>Desenvolvimento de jogos</li>
+            </ul>
+        </section>
+        <section class="content-section">
+            <h2 class="section-title text-info">Empregabilidade</h2>
+            <img src="https://cdn.prod.website-files.com/5cf95301995e8c7bc1880a6a/5eff4f6fb92bcb4c4e0364f9_svdesdeva_cesjf_image_371-p-2000.jpeg" alt="Empregabilidade na Engenharia de Software">
+            <p>A empregabilidade na área de Engenharia de Software é alta, devido à crescente demanda por soluções tecnológicas em todos os setores da economia. Profissionais de software são requisitados por grandes empresas de tecnologia, startups inovadoras, indústrias, governo e até mesmo organizações sem fins lucrativos. Alguns dos cargos mais procurados são desenvolvedores full-stack, engenheiros de DevOps, especialistas em segurança e arquitetos de software. A alta demanda também resulta em excelentes salários, além da flexibilidade de trabalho remoto.</p>
+        </section>
+        <section class="profile-section">
+            <div class="container">
+                <img src="https://avatars.githubusercontent.com/u/87669338?v=4" alt="Engenheiro de Software">
+                <h4>Antônio Carlos</h4>
+                <p>👨‍💻 Desenvolvedor Web Full Stack & Salesforce</p>
+                <p>💚 Apaixonado por tecnologia e interações digitais</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; <span id="anoAtual"></span> Engenharia de Software. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('anoAtual').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
